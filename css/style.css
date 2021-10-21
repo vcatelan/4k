@@ -1,0 +1,276 @@
+/* GERAL */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+	background-color: #000;
+}
+h1, h2, h3, p, sup, span {
+    color: #e58900;
+}
+.titulo{
+    padding: 25px;
+    font-size: 2em;
+}
+.container-txt p {
+    margin-bottom: 1em;
+    text-align:justify
+}
+
+/* HEADER */
+.header {
+    background-color: #e58900;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+	justify-content: flex-start;
+	position: relative;
+    text-decoration: bold;
+}
+.header-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-nav a {
+    color: #000;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+}
+
+/* HOME */
+.container{
+    max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: -10px;
+}
+.container-txt {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+.container-txt h1 {
+    margin-bottom: .5em;
+}
+.container-img{
+	flex: 1;
+}
+.fourkings {
+    width: 500px;
+    padding-top: 60px;
+}
+
+/* REIS */
+.principais {
+    max-width: 980px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.reis-container {
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+}
+.reis {
+    flex: 1 1 150px;
+    max-width: 250px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.reis h2 {
+    border-top: 5px solid #e58900;
+    padding: 5px;
+}
+.reis h3 {
+    padding: 5px; 
+}
+.reis p {
+    font-size: 1.1em;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+.img-rei {
+    width: 150px;
+    padding: 25px;
+    justify-content: center;
+}
+
+/* ROUPAS */
+.camisetas {
+    max-width: 980px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* .header-roupas{
+
+} */
+.roupas-container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+.roupa {
+    flex: 1 1 150px;
+    max-width: 250px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.roupa h3 {
+    padding: 10 0px;
+}
+.roupa span, sup {
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding: 10px; 
+}
+.img-roupa, .img-roupa-zoom {
+    width: 350px;
+    padding: 25px;
+    justify-content: center;
+    border-top: 5px solid #e58900;
+}
+
+/* ACESSORIOS */
+.acessorios {
+    max-width: 980px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* .header-acessorios{
+
+} */
+.acessorio-container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 980px;
+	margin: 0 auto;
+	padding: 60px 0;
+	flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap;
+}
+/* .acessorio-txt{
+    H2
+} */
+.bone {
+    flex: 1 1 150px;
+    max-width: 250px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.bone h3 {
+    padding: 10 0px;
+}
+.bone span, sup {
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding: 10px; 
+}
+/* .carteira-txt{
+
+} */
+.carteira {
+    flex: 1 1 150px;
+    max-width: 250px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.carteira h3 {
+    padding: 10 0px;
+}
+.carteira span, sup {
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding: 10px; 
+}
+/* .oculos-txt{
+} */
+.oculos {
+    flex: 1 1 150px;
+    max-width: 250px;
+    padding: 0 100px;
+    justify-content: center;
+}
+.oculos h3 {
+    padding: 10 0px;
+}
+.oculos span, sup {
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding: 10px; 
+}
+.img-acessorio, .img-acessorio-zoom {
+    width: 350px;
+    padding: 25px;
+    justify-content: center;
+    border-bottom: 5px solid #e58900;
+}
+
+/* COMO COMPRAR */
+
+/* TABELA DE MEDIDAS */
+.container-txt {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.container-img{
+	flex: 1;
+}
+.tabela-tamanhos {
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 130px;
+}
+
+/* TROCAS E DEVOLUÇÕES */
+
+/* BASE */
+.footer {
+    background-color: #e58900;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+	justify-content: flex-end;
+	position: relative;
+    text-align: right;
+    text-decoration: bold;
+}
+.footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-nav ul li{
+    display: inline-block;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.footer-nav a {
+    color: #000;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+}

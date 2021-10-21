@@ -1,0 +1,684 @@
+	/* Estilos Gerais */
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+	background-color: #000;
+}
+body section:nth-child(1) {
+	height: 50px;
+}
+	/* Header */
+.header {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	background: #e58900;
+	padding: 5px 0;
+	height: 50px;
+	z-index: 9999999999;
+}
+.header_menu {
+	text-align: right;
+}
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.header_menu ul li a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+	/* Corpo */
+/* Reino */
+.reino {
+	display: flex;
+	align-items: center;
+}
+.reinotexto {
+	color: #e58900;
+	text-align: justify;
+	width: auto;
+	height:auto;
+	margin-right: 50px;
+	margin-top: 65px;
+
+}
+.reinotexto>p{
+	line-height: 1.3em;	
+}
+.reino {
+	color: #e58900;
+	text-align: justify;
+	width: auto;
+	height:auto;
+}
+.reino>h1 {
+	color: #e58900;
+}
+.reino>h2 {
+	color: #e58900;
+}
+
+/* Reis */
+.header_reis {
+	display: flex;
+	justify-content: flex-start;
+	margin: 12px 0;
+	width: 100%;
+	position: relative;
+}
+.principais {
+	color: #e58900;
+}
+.convidados{
+	color: #e58900;
+}
+.reis {
+	color: #e58900;
+	flex-direction: column;
+	width: 70%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.cards_principais {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cards_principais>div {
+    width: 300px;
+	height: auto;
+    display: flex;
+	flex-direction: column;
+	justify-content: center ;
+	text-align: center;
+	margin: 60px;
+	align-items: center;
+	border: 1px solid #e58900;
+}
+.cards_principais>div>h2,
+.cards_principais>div>h3 {
+	margin: 10px;
+}
+.cards_principais>div>p {
+	margin: 10px;
+	line-height: 1.5em;
+}
+
+section .header_reis,
+section .header_convidados {
+	width: 100%;
+	display: flex;
+}
+.rarthur {
+	width: 250px;
+	display: inline-flex;
+
+}
+.rferas {
+	width: 250px;
+	display: inline-flex;
+}
+.rmidas {
+	width: 250px;
+	display: inline-flex;
+}
+.rmomo {
+	width: 250px;
+	display: inline-flex;
+}
+.reisc {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+	text-align: center;
+}
+.rsol {
+	width: 250px;
+	display: inline-flex;
+}
+
+/* Roupas */
+.camisetas {
+		color: #e58900;
+	flex-direction: column;
+	width: 70%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.camisetas>h2 {
+	color: #e58900
+}
+.roupas_principais {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.roupas_principais>div {
+    width: 300px;
+	height: auto;
+    display: inline-block;
+	text-align: center;
+	margin: 60px;
+	border: 1px solid #e58900;
+	overflow: hidden;
+}
+.roupas_principais>div>img{
+	position: relative;
+	left: -100px;
+}
+section .header_roupas {
+	width: 100%;
+	display: flex;
+}
+	
+/* Acessórios */
+.acessorios {
+	color: #e58900;
+	flex-direction: column;
+	width: 70%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.acessorios>h2 {
+	color: #e58900
+}
+.acessorios_principais {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.acessorios_principais>div {
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin: 60px;
+	border: 1px solid #e58900;
+	overflow: hidden;
+}
+.acessorios_principais>div>img{
+	position: relative;
+	left: -100px;
+}
+section .header_acessorios {
+width: 100%;
+display: flex;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	background: #e58900;
+	padding: 5px 0;
+	margin-top: 75px;
+	
+}
+.home.footer {
+	width: 100%;
+	background: #e58900;
+	padding: 5px 0;
+	margin-top: 75px;
+	position:absolute; 
+	bottom: 0;
+}
+.footer_menu {
+	text-align: right;
+}
+.footeer_menu ul li {
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.footer_menu ul li a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* Atendimento */
+.atendimento {
+	color: #e58900;
+	flex-direction: column;
+	width: 70%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.como_comprar {
+	display: flex;
+	justify-content: flex-start;
+	margin: 12px 0;
+	width: 100%;
+	position: relative;
+}
+.instrucoes {
+    width: 100%;
+	height: auto;
+    display: flex;
+	flex-direction: column;
+	justify-content: center ;
+	text-align: center;
+	margin: 60px 60px 60px 10px;
+	align-items: center;
+	border: 1px solid #e58900;
+}
+.instrucoes>p {
+	color: #e58900;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+}
+.instrucoes>h2 {
+    margin-top: 20px;
+}
+
+/* Tamanhos */
+.header_medidas{
+	display: flex;
+	justify-content: flex-start;
+	margin: 12px 0 12px 100px;
+	width: 100%;
+	position: relative;
+
+}
+.tamanho {
+	display: flex;
+	align-items: center;
+	margin: 85px auto;
+	color: #e58900;
+	text-align: justify;
+	width: 80%;
+	height:auto;
+	flex-direction: column;
+	
+}
+.tamanhotexto {
+	color: #e58900;
+	text-align: justify;
+	width: auto;
+	height:auto;
+	margin-top: 65px;
+	display: flex;
+	/* flex-direction: column; */
+}
+.tamanhotexto >div:nth-child(1){
+	width: 60%;
+}
+.tamanhotexto>p{
+	line-height: 1.3em;	
+}
+.tamanho>h1 {
+	color: #e58900;
+}
+.tamanho>h2 {
+	color: #e58900;
+}
+.tabela_tamanho {
+	width: 380px;
+	margin-left: 15px;
+	transform: translateX(70px);
+}
+
+
+	/* Trocar imagem */
+
+/* Camiseta */
+.r1-1{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+	text-align: center;
+}
+.r1-2{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+	text-align: center;
+}
+.roupa1 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.roupa1 .r1-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.roupa1:hover .r1-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.r2-1{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+	text-align: center;
+}
+.r2-2{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+	text-align: center;
+}
+.roupa2 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.roupa2 .r2-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.roupa2:hover .r2-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Bonés */
+.b1-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.b1-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.bone1 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.bone1 .b1-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.bone1:hover .b1-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.b2-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.b2-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.bone2 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.bone2 .b2-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.bone2:hover .b2-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Carteiras */
+
+.c1-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.c1-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.carteira1 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.carteira1 .c1-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.carteira1:hover .c1-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c2-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.c2-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.carteira2 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.carteira2 .c2-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.carteira2:hover .c2-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c3-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.c3-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.carteira3 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.carteira3 .c3-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.carteira3:hover .c3-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c4-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.c4-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.carteira4 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.carteira4 .c4-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.carteira4:hover .c4-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.o1-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.o1-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.oculos1 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.oculos1 .o1-2 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.oculos1:hover .o1-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.o2-1{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.o2-2{
+    width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+}
+.oculos2 {
+    position: relative;
+	width: 500px;
+    /* height: 300px; */
+    display: inline-block;
+	text-align: center;
+	color: #e58900;
+}
+.oculos2 .o2-1 {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.oculos2:hover .o2-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.acessorios_principais {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.acessorios_principais>div {
+width: 300px;
+height: auto;
+display: inline-block;
+text-align: center;
+margin: 60px;
+border: 1px solid #e58900;
+overflow: hidden;
+}
+.acessorios_principais>div>img{
+position: relative;
+left: -113px;
+}
