@@ -10,6 +10,13 @@ h1, h2, h3, p, sup, span {
     padding: 25px;
     font-size: 2em;
 }
+.container{
+    max-width: 980px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
 .container-txt p {
     margin-bottom: 1em;
     text-align:justify
@@ -41,13 +48,6 @@ h1, h2, h3, p, sup, span {
 }
 
 /* HOME */
-.container{
-    max-width: 1000px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-    margin-top: -10px;
-}
 .container-txt {
     flex: 2 1 300px;
     margin: 0 10px;
@@ -64,23 +64,15 @@ h1, h2, h3, p, sup, span {
 }
 
 /* REIS */
-.principais {
-    max-width: 980px;
-	margin: 0 auto;
-	padding: 60px 0;
-	display: flex;
-	flex-wrap: wrap;
-}
-.reis-container {
-   display: flex; 
-   flex-wrap: wrap;
-   align-items: center;
-}
+
 .reis {
     flex: 1 1 150px;
     max-width: 250px;
     padding: 0 100px;
     justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
 }
 .reis h2 {
     border-top: 5px solid #e58900;
@@ -95,27 +87,20 @@ h1, h2, h3, p, sup, span {
     margin-bottom: 1em;
     text-align: justify;
 }
-.img-rei {
+.rei-img {
     width: 150px;
     padding: 25px;
     justify-content: center;
 }
 
 /* ROUPAS */
-.camisetas {
+.container-roupas{
+    align-items: center;
     max-width: 980px;
 	margin: 0 auto;
 	padding: 60px 0;
 	display: flex;
 	flex-wrap: wrap;
-}
-/* .header-roupas{
-
-} */
-.roupas-container{
-    display: flex; 
-    flex-wrap: wrap;
-    align-items: center;
 }
 .roupa {
     flex: 1 1 150px;
@@ -142,25 +127,18 @@ h1, h2, h3, p, sup, span {
 
 /* ACESSORIOS */
 .acessorios {
+
+}
+.container{
     max-width: 980px;
 	margin: 0 auto;
 	padding: 60px 0;
-	display: flex;
 	flex-wrap: wrap;
-}
-/* .header-acessorios{
-
-} */
-.acessorio-container{
+    display: flex; 
+    flex-wrap: wrap;
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
-    max-width: 980px;
-	margin: 0 auto;
-	padding: 60px 0;
-	flex-wrap: wrap;
-    display: flex; 
-    flex-wrap: wrap;
 }
 /* .acessorio-txt{
     H2
@@ -222,21 +200,13 @@ h1, h2, h3, p, sup, span {
     width: 350px;
     padding: 25px;
     justify-content: center;
-    border-bottom: 5px solid #e58900;
+    border-top: 5px solid #e58900;
 }
 
 /* COMO COMPRAR */
 
 /* TABELA DE MEDIDAS */
-.container-txt {
-    flex: 2 1 300px;
-    margin: 0 10px;
-}
-
-.container-img{
-	flex: 1;
-}
-.tabela-tamanhos {
+.container-img {
     width: 300px;
     padding-left: 50px;
     padding-top: 130px;
