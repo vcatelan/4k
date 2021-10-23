@@ -59,8 +59,9 @@ h1, h2, h3, p, sup, span {
 	flex: 1;
 }
 .fourkings {
-    width: 500px;
-    padding-top: 60px;
+    width: 400px;
+    padding-top: 40px;
+    padding-right: 70px;
 }
 
 /* REIS */
@@ -207,9 +208,12 @@ h1, h2, h3, p, sup, span {
 
 /* TABELA DE MEDIDAS */
 .container-img {
-    width: 300px;
-    padding-left: 50px;
-    padding-top: 130px;
+	flex: 1;
+}
+.tabela{
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 100px;
 }
 
 /* TROCAS E DEVOLUÇÕES */
