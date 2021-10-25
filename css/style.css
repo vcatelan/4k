@@ -19,7 +19,7 @@ h1, h2, h3, p, sup, span {
 }
 .container-txt p {
     margin-bottom: 1em;
-    text-align:justify
+    text-align:left;
 }
 
 /* HEADER */
@@ -67,7 +67,7 @@ h1, h2, h3, p, sup, span {
 /* REIS */
 
 .reis {
-    flex: 1 1 150px;
+    flex: 1 1 250px;
     max-width: 250px;
     padding: 0 100px;
     justify-content: center;
@@ -76,21 +76,24 @@ h1, h2, h3, p, sup, span {
     align-items: center;
 }
 .reis h2 {
-    border-top: 5px solid #e58900;
     padding: 5px;
+    text-align: center;
 }
 .reis h3 {
     padding: 5px; 
+    text-align: center;
 }
 .reis p {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1;
     margin-bottom: 1em;
-    text-align: justify;
+    text-align: center;
+    padding: 10 0px;
+    margin-bottom: 1px solid #e58900;
 }
 .rei-img {
     width: 150px;
-    padding: 25px;
+    padding: 0 50px;
     justify-content: center;
 }
 
