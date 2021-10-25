@@ -114,13 +114,18 @@ h1, h2, h3, p, sup, span {
 }
 .roupa h3 {
     padding: 10 0px;
+    width: 400px;
 }
-.roupa span, sup {
+.roupa span {
     font-size: 1em;
     line-height: 1;
-    margin-bottom: 1em;
-    text-align: justify;
-    padding: 10px; 
+    margin-top: .5em;
+    padding-bottom: 10px; 
+    display: block;
+    width: 400px;
+    justify-content: flex-end;
+    display: flex;
+    height: 35px;
 }
 .img-roupa, .img-roupa-zoom {
     width: 350px;
@@ -222,6 +227,11 @@ h1, h2, h3, p, sup, span {
 /* TROCAS E DEVOLUÇÕES */
 
 /* BASE */
+.home > .base{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 .footer {
     background-color: #e58900;
     max-width: 100%;
