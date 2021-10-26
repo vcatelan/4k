@@ -21,7 +21,6 @@ h1, h2, h3, p, sup, span {
     margin-bottom: 1em;
     text-align:left;
 }
-
 /* HEADER */
 .header {
     background-color: #e58900;
@@ -46,7 +45,6 @@ h1, h2, h3, p, sup, span {
     display: block;
     padding: 10px;
 }
-
 /* HOME */
 .container-txt {
     flex: 2 1 300px;
@@ -63,9 +61,7 @@ h1, h2, h3, p, sup, span {
     padding-top: 40px;
     padding-right: 70px;
 }
-
 /* REIS */
-
 .reis {
     flex: 1 1 250px;
     max-width: 250px;
@@ -96,7 +92,6 @@ h1, h2, h3, p, sup, span {
     padding: 0 50px;
     justify-content: center;
 }
-
 /* ROUPAS */
 .container-roupas{
     align-items: center;
@@ -133,11 +128,7 @@ h1, h2, h3, p, sup, span {
     justify-content: center;
     border-top: 5px solid #e58900;
 }
-
 /* ACESSORIOS */
-.acessorios {
-
-}
 .container{
     max-width: 980px;
 	margin: 0 auto;
@@ -149,9 +140,6 @@ h1, h2, h3, p, sup, span {
     flex-wrap: wrap;
     align-items: center;
 }
-/* .acessorio-txt{
-    H2
-} */
 .bone {
     flex: 1 1 150px;
     max-width: 250px;
@@ -168,9 +156,6 @@ h1, h2, h3, p, sup, span {
     text-align: justify;
     padding: 10px; 
 }
-/* .carteira-txt{
-
-} */
 .carteira {
     flex: 1 1 150px;
     max-width: 250px;
@@ -187,8 +172,6 @@ h1, h2, h3, p, sup, span {
     text-align: justify;
     padding: 10px; 
 }
-/* .oculos-txt{
-} */
 .oculos {
     flex: 1 1 150px;
     max-width: 250px;
@@ -211,9 +194,7 @@ h1, h2, h3, p, sup, span {
     justify-content: center;
     border-top: 5px solid #e58900;
 }
-
 /* COMO COMPRAR */
-
 /* TABELA DE MEDIDAS */
 .container-img {
 	flex: 1;
@@ -223,9 +204,7 @@ h1, h2, h3, p, sup, span {
     padding-top: 40px;
     padding-left: 100px;
 }
-
 /* TROCAS E DEVOLUÇÕES */
-
 /* BASE */
 .home > .base{
     position: fixed;
