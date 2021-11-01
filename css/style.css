@@ -1,4 +1,3 @@
-/* GERAL */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
 	background-color: #000;
@@ -13,12 +12,23 @@ h1, h2, h3, p, sup, span {
 	display: flex;
 	flex-wrap: wrap;
 }
+.container-txt {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+.container-txt h1 {
+    margin-bottom: .5em;
+}
 .container-txt p {
     margin-bottom: 1em;
     text-align:left;
-    padding-top: 60px;
+    padding-top: 25px;
     font-size: 1em;
     line-height: 1.4;
+}
+.container-img{
+	flex: 1 1 300px;
+    margin: 0 10px;
 }
 .menu {
     background-color: #e58900;
@@ -68,18 +78,8 @@ h1, h2, h3, p, sup, span {
 .container-img{
 	flex: 1;
 }
-/*INSTITUCIONAL*/
-.container-txt {
-    flex: 2 1 300px;
-    margin: 0 10px;
-}
-.container-txt h1 {
-    margin-bottom: .5em;
-}
-.container-img{
-	flex: 1 1 300px;
-    margin: 0 10px;
-}
+
+
 .fourkings {
     width: 400px;
     padding-top: 40px;
@@ -117,25 +117,28 @@ h1, h2, h3, p, sup, span {
     justify-content: center;
 }
 /* ROUPAS */
-.container-roupas{
-    align-items: center;
-    max-width: 980px;
-	margin: 0 auto;
+.produtos{
+    max-width: 800px;
+	margin: 60px auto;
 	padding: 60px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
-.roupa {
+.produtos-item {
     flex: 1 1 150px;
     max-width: 250px;
-    padding: 0 100px;
+    padding: 0px 90px;
     justify-content: center;
+    margin: 10px;
 }
-.roupa h3 {
+.container-roupas{
+    display: flex;
+}
+.produtos-item h3 {
     padding: 10 0px;
     width: 400px;
 }
-.roupa span {
+.produtos-item span {
     font-size: 1em;
     line-height: 1;
     margin-top: .5em;
@@ -146,7 +149,7 @@ h1, h2, h3, p, sup, span {
     display: flex;
     height: 35px;
 }
-.img-roupa, .img-roupa-zoom {
+.produtos-img, .produtos-img-zoom {
     width: 350px;
     padding: 25px;
     justify-content: center;
@@ -220,9 +223,7 @@ h1, h2, h3, p, sup, span {
 }
 /* COMO COMPRAR */
 /* TABELA DE MEDIDAS */
-.container-img {
-	flex: 1;
-}
+
 .tabela{
     width: 400px;
     padding-top: 40px;
@@ -230,7 +231,7 @@ h1, h2, h3, p, sup, span {
 }
 /* TROCAS E DEVOLUÇÕES */
 /* BASE */
-.home > .base{
+.base{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -263,4 +264,7 @@ h1, h2, h3, p, sup, span {
     font-size: 1em;
     display: block;
     padding: 10px;
+}
+.footer-nav a:hover{
+    color: white;
 }
