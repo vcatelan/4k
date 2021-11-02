@@ -36,6 +36,7 @@ h1, h2, h3, p, sup, span {
 }
 .menuinfo {
     max-width: 1300px;
+    height: 25px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
@@ -45,6 +46,7 @@ h1, h2, h3, p, sup, span {
 	position: relative;
     justify-content: space-between;
     border-bottom: 1px solid black;
+
 }
 .menuinfo-nav ul {
     display: flex;
@@ -69,7 +71,7 @@ h1, h2, h3, p, sup, span {
     height: 250px;
     width: 1200px;
     flex: 2 1 300px;
-    margin: 25 10px;
+    margin: 50px 50px;
     padding: 25px 25px;
 }
 .divisoria h1 {
@@ -78,8 +80,6 @@ h1, h2, h3, p, sup, span {
 .container-img{
 	flex: 1;
 }
-
-
 .fourkings {
     width: 400px;
     padding-top: 40px;
@@ -156,18 +156,15 @@ h1, h2, h3, p, sup, span {
     border-top: 5px solid #e58900;
 }
 /* ACESSORIOS */
-.container{
+.container {
     max-width: 980px;
 	margin: 0 auto;
 	padding: 60px 0;
 	flex-wrap: wrap;
     display: flex; 
-    flex-wrap: wrap;
-    display: flex; 
-    flex-wrap: wrap;
     align-items: center;
 }
-.bone {
+/* .bone {
     flex: 1 1 150px;
     max-width: 250px;
     padding: 0 100px;
@@ -214,34 +211,25 @@ h1, h2, h3, p, sup, span {
     margin-bottom: 1em;
     text-align: justify;
     padding: 10px; 
-}
+} */
 .img-acessorio, .img-acessorio-zoom {
     width: 350px;
     padding: 25px;
     justify-content: center;
     border-top: 5px solid #e58900;
 }
-/* COMO COMPRAR */
 /* TABELA DE MEDIDAS */
-
 .tabela{
     width: 400px;
     padding-top: 40px;
     padding-left: 100px;
 }
-/* TROCAS E DEVOLUÇÕES */
 /* BASE */
-.base{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 .footer {
     background-color: #e58900;
     max-width: 100%;
     margin: 0 auto;
-    padding: 15px 0;
-    display: flex;
+    padding: 15px 15px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -251,19 +239,16 @@ h1, h2, h3, p, sup, span {
     text-decoration: bold;
 }
 .footer-nav ul {
-    display: flex;
     flex-wrap: wrap;
 }
 .footer-nav ul li{
-    display: inline-block;
 	margin-left: 45px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .footer-nav a {
     color: #000;
     font-size: 1em;
-    display: block;
-    padding: 10px;
+
 }
 .footer-nav a:hover{
     color: white;
