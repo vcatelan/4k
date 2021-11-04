@@ -131,6 +131,7 @@ h1, h2, h3, p, sup, span {
 }
 .container-roupas{
     display: flex;
+    flex-wrap: wrap;
 }
 .produtos-item h3 {
     padding: 10 0px;
@@ -221,6 +222,7 @@ h1, h2, h3, p, sup, span {
     width: 400px;
     padding-top: 40px;
     padding-left: 100px;
+    flex-wrap: wrap;
 }
 /* BASE */
 .footer {
